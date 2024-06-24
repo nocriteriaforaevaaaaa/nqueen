@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: cornflowerblue;
+  }
+
+  .board{
+    display:grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+    gap:3px;
+    border:2 px solid black;
+    background-color: white;
+  }
+
+  .cell{
+    width:100px;
+    height:100px;
+    display:flex;
+    justify-content: center;
+    font-size:25px;
+  }
