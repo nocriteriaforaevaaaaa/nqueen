@@ -7,7 +7,36 @@
     <title>N-Queen</title>
 </head>
 <body>
-    <div class="board" id="board"></div>
-    <script src="main.js"></script>
+    <table id="t">
+        <tr>
+            <td class="w" onclick="change(this.id)" id="1">  </td>
+            <td class="b" onclick="change(this.id)" id="2" >  </td>
+            <td class="w" onclick=" change(this.id)" id="3">  </td>
+            <td class="b" onclick=" change(this.id)" id="4">  </td>
+        </tr>
+        <tr>
+                <td class="b" onclick=" change(this.id)" id="5">  </td>
+                <td class="w" onclick=" change(this.id)" id="6">  </td>
+                <td class="b"onclick=" change(this.id)" id="7">  </td>
+                <td class="w" onclick=" change(this.id)" id="8">  </td>
+            </tr>
+            <tr>
+                    <td class="w" onclick="change(this.id)" id="9">  </td>
+                    <td class="b" onclick=" change(this.id)" id="10">  </td>
+                    <td class="w" onclick=" change(this.id)" id=11>  </td>
+                    <td class="b" onclick=" change(this.id)" id="12">  </td>
+                </tr>
+                <tr>
+                        <td class="b" onclick=" change(this.id)" id="13">  </td>
+                        <td class="w" onclick=" change(this.id)" id="14">  </td>
+                        <td class="b" onclick=" change(this.id)" id="15"> </td>
+                        <td class="w" onclick=" change(this.id)" id=16>  </td>
+                    </tr>
+            </table>
+            <script src="table.js"></script>
+        
+            <input type="button" value="clear" onclick="window.location.reload()">
+        </body>
+        </html>
 </body>
 </html>
